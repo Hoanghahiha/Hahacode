@@ -5,17 +5,20 @@
 
 int main(int argc, char *argv[]) {
 	int a;
-	int r;
-	printf("Nhap vao mot so:");
+	
+	printf("Nhap vao mot so: ");
 	scanf("%d", &a);
-	r = a%2;
-	printf("So du r=%d", r);
-	if(r==0){
-		printf("%d la so chan", a);
-		
-	 }else{
-	 	printf("%d la so le", a);
-	 }
+	
+	if(a>0){
+		printf("%d la so nguyen duong\n", a);
+	}
+	 if(a==0){
+	 printf("%d bang 0\n", a);	
+	}
+	
+	if(a<0){
+		printf("%d la so nguyen am",a);
+	}
 
 	return 0;
 }
