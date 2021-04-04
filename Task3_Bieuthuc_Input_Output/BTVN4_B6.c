@@ -9,6 +9,7 @@ int main(int argc, char *argv[]) {
 	float bonper=33.33, loandet=250.00;
 	float salary;
 	salary = basic + basic*daper/100 + bonper*basic/100 - loandet;
+	printf("Nhap vao ten nhan vien: ");
 	scanf("%s", name);
 	printf("Luong cua nhan vien %s la: \n", name);
 	printf("%s %d$ %.2f$", name, basic, salary);

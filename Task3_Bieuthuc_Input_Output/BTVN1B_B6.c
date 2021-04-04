@@ -7,6 +7,7 @@ int main(int argc, char *argv[]) {
 	int sum;
 	float discount_rate;
 	
+	printf("Nhap vao mot so nguyen va mot so thuc:\n");
 	scanf("%d %f", &sum, &discount_rate);
 	printf("So nguyen: %d, so thuc: %f", sum, discount_rate);
 	

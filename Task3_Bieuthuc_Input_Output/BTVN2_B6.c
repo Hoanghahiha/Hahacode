@@ -5,7 +5,8 @@
 
 int main(int argc, char *argv[]) {
 	int x;
+	printf("Nhap vao mot ki tu:\n");
 	scanf("%c", &x);
-	printf("%d", x);
+	printf("Gia tri ki tu khi chuyen sang ma ASCII %d", x);
 	return 0;
 }
