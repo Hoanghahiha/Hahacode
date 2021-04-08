@@ -18,15 +18,15 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &so);
 	if(so==1)
 	printf("Ban chon CF!");
-	if(so==2)
+	else if(so==2)
 	printf("Ban chon C!");
-	if(so==3)
+	else if(so==3)
 	printf("Ban chon HDJ!");
-	if(so==4)
+	else if(so==4)
 	printf("Ban chon DreamWeaver!");
-	if(so==5)
+	else if(so==5)
 	printf("Ban chon RDBMS!");
-	if(so==6)
+	else if(so==6)
 	printf("Ban chon Learn Java By Example!");
 	else
 	printf("Ban chon sai(Chon so tu 1-->6)\nMoi ban nhap lai!");
