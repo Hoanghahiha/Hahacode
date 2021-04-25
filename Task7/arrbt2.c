@@ -4,11 +4,14 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	char alpha[26];
+	int arr[10]={1,2,3,4,5,0,0,0,0,0};
+	float arr1[10];
 	int i,j;
-	for(i=82,j=0;j<20; i++,j++){
-		alpha[j]=i;
-		printf("The character now assigned is %c \n", alpha[j]);
+	for(i=0,j=0;i<10;i++,j++){
+		arr1[j]= arr[i];
+	}
+	for(i=0,j=0;i<10&&j<10;i++,j++){
+		printf("%.1f \t%d\n",arr1[j],arr[i]);
 	}
 	return 0;
 }
