@@ -5,7 +5,7 @@
 void reverse(int arr[],int size){
 	int i;
 	for(i=size-1;i>=0;i--){
-		printf("%d\t", arr[i]);
+		printf("%d:\t", arr[i]);
 	}
 //	return arr;
 }
