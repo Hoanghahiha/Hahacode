@@ -1,0 +1,10 @@
+#heading
+{
+    background: #FFFFCC;
+    text-align: center;
+    border-left-style: ridge;
+    border-right-style: groove;
+    border-top-style: outset;
+    border-bottom-style: double;
+    border-bottom-color: #0066FF;
+}
