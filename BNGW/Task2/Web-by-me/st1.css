@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#web {
+    background-color: #F0F2F5;
+}
+
+
+/* common */
+
+.siderbar .tag:hover,
+.friend:hover {
+    background-color: rgb(150, 153, 153);
+}
+
+.friend {
+    height: 46px;
+}
+
+.name {
+    padding-top: 12px;
+    padding-left: 5px;
+}
+
+.avt {
+    height: 30px;
+    width: 30px;
+    margin: 8px 3px 0 15px;
+    border-radius: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+
+/* end common */
+
+#navigation {
+    z-index: 1;
+    position: fixed;
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0px 6px #333;
+    padding: 0 10px;
+}
+
+#navigation .header {}
+
+#navigation .left {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.header .left>img {
+    width: 35px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+#navigation .left i {
+    opacity: 0.6;
+    width: 30px;
+    padding-left: 10px;
+}
+
+#navigation .left .search {
+    background-color: #F0F2F5;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#navigation .left .search input {
+    background-color: #F0F2F5;
+    height: 36px;
+    outline: none;
+}
+
+.header .middle {
+    width: 40%;
+}
+
+.header .middle i {
+    padding: 12px 0;
+    text-align: center;
+    width: 20%;
+    font-size: 24px;
+    color: black;
+}
+
+.header .middle i:hover {
+    border-bottom: 2px solid rgb(31, 31, 197);
+    color: rgb(31, 31, 197);
+}
+
+.header .right {
+    width: 30%;
+    padding-right: 10px;
+}
+
+.header .right i {
+    float: right;
+    text-align: center;
+    color: black;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #F0F2F5;
+    margin: 4px;
+}
+
+.header .right .personal {
+    float: right;
+    width: 70px;
+    background-color: #F0F2F5;
+    height: 40px;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.header .right .son img {
+    width: 35px;
+    border-radius: 50%;
+    padding-top: 3px;
+}
+
+.right .personal b {
+    padding: 8px 2px 0 2px;
+    opacity: 0.8;
+}
+
+.header .right i:hover,
+.header .right .personal:hover {
+    background-color: grey;
+}
+
+#navigation .siderbar {
+    padding: 15px 0 15px 5px;
+    left: 0;
+}
+
+#navigation .friends {
+    padding: 0 0 15px 5px;
+    right: 0;
+}
+
+#navigation .siderbar,
+#navigation .friends {
+    width: 20%;
+    background-color: #F0F2F5;
+    position: absolute;
+    top: 51px;
+}
+
+.siderbar .tag {
+    height: 46px;
+}
+
+.siderbar .tag .icon {
+    padding-left: 12px;
+    padding-top: 6px;
+}
+
+.siderbar .tag .more {
+    background-color: grey;
+}
+
+.siderbar .tag .more,
+.friends .title .icon,
+.friends .more i {
+    margin-top: 11px;
+    margin-left: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+}
+
+.siderbar .tag .more,
+.friends .more i {
+    margin-right: 6px;
+}
+
+.friends .title {
+    height: 48px;
+    opacity: 0.7;
+}
+
+.friends .title h3 {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.friends .title .icon {
+    background-color: rgb(180, 175, 175);
+    float: right;
+}
+
+#content {
+    background-color: #F0F2F5;
+    width: 60%;
+    padding: 70px 30px 30px 30px;
+    /* background-color: grey; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .story .daddy {
+    width: 18%;
+    border-radius: 20px;
+    margin: 0 1%;
+    padding: 20px 10px 40px 10px;
+    background: rgb(153, 146, 223);
+}
+
+#content .story .tin {
+    color: white;
+    height: 120px;
+    background: url(https://nhandan.com.vn/imgold/media/k2/items/src/4140/43890c9906a1fd30b74b01726c46bb68.jpg)top / contain no-repeat;
+}
+
+#content .story .tin .avt {
+    border: 3px solid rgb(73, 73, 231);
+    box-sizing: unset;
+    margin: 0;
+}
+
+#content .story .mine img {
+    width: 100%;
+}
+
+#content .story .mine {
+    background: none;
+    position: relative;
+}
+
+#content .story .mine .add {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgb(60, 60, 236);
+    bottom: -8px;
+    left: 44px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.story .mine .add span {
+    font-size: 24px;
+    line-height: 1;
+    padding-left: 6px;
+    padding-top: 2px;
+    margin-bottom: -10px;
+    display: inline-block;
+    color: white
+}
+
+#content .story .tin p {
+    text-align: center;
+    margin-top: 84px;
+    padding: 0;
+}
+
+#content .story .tin .son {
+    margin-top: 8px;
+}
+
+.status,
+#content .post {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+
+.status .feeling,
+.status .media {
+    padding: 12px 0px;
+}
+
+.status .feeling {
+    border-bottom: 1.5px solid #F0F2F5;
+}
+
+.status .feeling .daddy-avt {
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.status .avt {
+    margin: 0;
+    height: 36px;
+    width: 36px;
+    border-bottom: 1px solid #F0F2F5;
+}
+
+.status .input {
+    width: 84%;
+    height: 36px;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #F0F2F5;
+}
+
+.status .media>div {
+    width: 33.333%;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.status .media i {
+    padding: 0 8px;
+    font-size: 24px;
+}
+
+#content .post .anh .avt {
+    width: 36px;
+    height: 36px;
+}
+
+#content .post .name {
+    padding-top: 6px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1;
+}
+
+#content .post .date {
+    opacity: 0.7;
+    padding-left: 4px;
+    line-height: 1;
+}
+
+#content .post .more {
+    float: right;
+    padding-top: 16px;
+    padding-right: 24px;
+}
+
+#content .post .text {
+    padding: 12px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content .post>img {
+    width: 100%;
+}

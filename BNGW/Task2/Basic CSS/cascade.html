@@ -2,9 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>How CSS Rules Casscade</title>
+    <style type="text/css">
+        *{
+            font-family: Arial, Verdana, sans-serif;
+        }
+        h1{
+            font-family: "Courier New", Courier, monospace;
+        }
+        i{
+            color: green !important;
+        }
+        i{
+            color: red;
+        }
+        b{
+
+            color: pink;
+        }
+        p b {
+            color: blue !important;
+        }
+        p b {
+            color: violet;
+        }
+        p#intro {
+            font-size: 100%;
+        }
+        p{
+            font-size: 120%;
+        }
+    </style>
 </head>
 <body>
-
+<h1>Potatoes</h1>
+    <p id="intro">There are
+        <i>dozens</i> of different <b>potato</b> varieties</p>
+    <p>They are usually described as early,
+        second early and maincrop potatoes</p>
 </body>
 </html>

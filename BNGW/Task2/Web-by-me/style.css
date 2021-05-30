@@ -1,0 +1,166 @@
+body{
+    font-family: Helvetica Neue,helvetica,arial,sans-serif;
+    font-size: 12px;
+    width: 1580px;
+    min-height: 2000px;
+    padding: 0;
+    background-image: url("img_vdi/pokemon-go-may-tinh-5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #ffffc6;
+    background-position: center;
+}
+header{
+    height: 100px;
+    border: 1px solid #CDCDCD;
+    font-family: public sans,sans-serif;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.wellcom{
+    float: left;
+    font-size: 300%;
+    height: 100px;
+    width: 600px;
+}
+.bar{
+    height: 30px;
+    border: 1px solid;
+    border-color: #CDCDCD;
+    background-color: #0066bb;
+    width: 1580px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+    font-size: 200%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.gif{
+    width: 600px;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.para{
+    width: 715px;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-indent: 10px;
+    padding-left: 5px;
+
+}
+aside{
+    width: 234px;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+footer{
+    height: 50px;
+    clear: both;
+    border: 1px solid #CDCDCD;
+    background-color: #F8F8FF;
+}
+section article h1{
+    color: #212121;
+    font-size: 178%;
+    margin-top: 0.75em;
+    text-transform: none;
+    font-family: "Felix Titling";
+}
+section article h2{
+    color: #30a7d7;
+    font-size: 150%;
+    line-height: 125%;
+    margin: 0.9em 0.5em 0.9em 0.75em;
+    font-family: "Flexo-Medium", Arial,sans-serif;
+}
+section article{
+    width: 590px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+section article p span{
+    float: left;
+    font-size: 550%;
+    font-weight: 700;
+    line-height: 80%;
+    color: #30a7d7;
+    margin: 0px 5px -5px 0px;
+}
+.pkp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.tbpkm{
+    text-indent: 10px;
+    float: left;
+    padding: 8px 5px;
+    text-align: left;
+    display: table-cell;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.tbpkm th, .tbpkm td{
+    border: 1px solid lightgrey;
+}
+.para p{
+    padding-left: 10px;
+    font-size: 16px;
+}
+.para h1{
+    color: #212121;
+    font-size: 178%;
+    margin-top: 0.75em;
+    text-transform: none;
+    font-family: "Felix Titling";
+}
+.para h2{
+    color: #30a7d7;
+    font-size: 150%;
+    line-height: 125%;
+    margin: 0.9em 0.5em 0.9em 0.75em;
+    font-family: "Flexo-Medium", Arial,sans-serif;
+}
+*{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+section article p{
+    font-size: 16px;
+}
+.bar a{
+    padding: 10px;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+}
+nav a:hover{
+    color: #3eaaff;
+}

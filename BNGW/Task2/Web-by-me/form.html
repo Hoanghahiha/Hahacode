@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+  <style>
+    p{
+      margin: auto;
+    }
+    #name, #email{
+      border-style: groove;
+      border-color: #efefef;
+    }
+    #submit{
+      border-radius: 5px;
+      border-color: #efefef;
+      background-color: #efefef;
+    }
+  </style>
+</head>
+<body>
+<fieldset>
+  <legend>Your Detail:</legend>
+  <p>Name: <input type="text" maxlength="30" id="name"></p>
+  <p>Email: <input type="email" id="email"></p>
+</fieldset>
+<br>
+<fieldset>
+  <legend>Your Details:</legend>
+  <p>How did you hear about us? <select name="ggle" id="ggle">
+    <option value="Google">Google</option>
+    <option value="Zing">Zing</option>
+  </select></p>
+  <br>
+  <p>Would you visit again?</p>
+  <input type="radio" name="yes" id="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" name="no" id="no">
+  <label for="no">No</label>
+  <input type="radio" name="maybe" id="maybe">
+  <label for="maybe">Maybe</label>
+  <br>
+  <br>
+  <p>Comments:</p>
+  <textarea name="box" id="box" cols="30" rows="10" placeholder="Enter your comments"></textarea>
+  <p><input type="checkbox" checked="checked">Sign me up for email updates</p>
+  <input type="submit" value="Submit review" id="submit">
+
+</fieldset>
+</body>
+</html>

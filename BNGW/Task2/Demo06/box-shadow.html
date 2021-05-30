@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Box Shadow</title>
+	<style type="text/css">
+		p {
+			width: 100px;
+			height: 100px;
+			background-color: #e1ddda;
+			margin: 20px;
+			display: inline-block;/* hiển thị khối nội tuyến*/
+		}
+
+		p.one {
+			-moz-box-shadow: -5px -5px #777777;
+			-webkit-box-shadow: -5px -5px #777777;
+			box-shadow: -5px -5px #777777;/* đơn vị định vị bóng theo chiều ngang dọc của thành phần*/
+		}
+
+		p.two {
+			-moz-box-shadow: 5px 5px 5px #777777;
+			-webkit-box-shadow: 5px 5px 5px #777777;
+			box-shadow: 5px 5px 5px #777777;/* đơn vị định khoảng cách mờ cho bóng*/
+		}
+
+		p.three {
+			-moz-box-shadow: 5px 5px 5px 5px #777777;
+			-webkit-box-shadow: 5px 5px 5px 5px #777777;
+			box-shadow: 5px 5px 5px 5px #777777;/* Tăng hoặc giảm độ lan rộng cho bóng.*/
+		}
+
+		p.four {
+			-moz-box-shadow: 0 0 10px #777777;
+			-webkit-box-shadow: 0 0 10px #777777;
+			box-shadow: 0 0 10px #777777;
+		}
+
+		p.five {
+			-moz-box-shadow: inset 0 0 10px #777777;
+			-webkit-box-shadow: inset 0 0 10px #777777;
+			box-shadow: inset 0 0 10px #777777;/* Thay đổi bóng từ ngoài tối vào trong sáng.*/
+		}
+	</style>
+</head>
+
+<body>
+	<p class="one">ONE</p>
+	<p class="two">TWO</p>
+	<p class="three">THREE</p>
+	<br />
+	<p class="four">FOUR</p>
+	<p class="five">FIVE</p>
+</body>
+
+</html>

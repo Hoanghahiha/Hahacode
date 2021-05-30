@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie Botanique</title>
+    <style>
+        .page{
+            background-image: url("images/backdrop.gif");
+            min-height: 1000px;
+            color: #665544;
+            font-size: 120%;
+        }
+        .one, .two, .header, p{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        img{
+            margin: 5px;
+            border-image: url("images/shadow.png") 30 round;
+        }
+        figure{
+            border: 1px solid ;
+            margin: 5px;
+            background-color: #eaeade;
+        }
+
+    </style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <img src="images/title.gif" alt="logo">
+  </div>
+        <p>Here is selection of antique botanical prints held in our collection</p>
+  <section class="one">
+      <figure>
+          <img src="images/print-01.jpg" alt="Helianthus">
+          <figcaption><img src="images/icon.png" align="center">Helianthus</figcaption>
+      </figure>
+      <figure>
+          <img src="images/print-02.jpg" alt="Passiflora"><figcaption><img src="images/icon.png" align="center">Passiflora</figcaption>
+      </figure>
+      <figure>
+          <img src="images/print-03.jpg" alt="Nyctocalos">
+          <figcaption><img src="images/icon.png" align="center">Nyctocalos</figcaption>
+      </figure>
+
+  </section>
+  <br>
+    <section class="two">
+    <figure>
+        <img src="images/print-04.jpg" alt="Polianthes">
+        <figcaption><img src="images/icon.png" align="center">Polianthes</figcaption>
+    </figure>
+    <figure>
+        <img src="images/print-05.jpg" alt="Ficus">
+        <figcaption><img src="images/icon.png" align="center">Ficus</figcaption>
+    </figure>
+        <figure>
+            <img src="images/print-06.jpg" alt="Dendrobium">
+            <figcaption><img src="images/icon.png" align="center">Dendrobium</figcaption>
+        </figure>
+    </section>
+</div>
+</body>
+</html>

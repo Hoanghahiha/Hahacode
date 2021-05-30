@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Styling Submit Buttons</title>
+		<style type="text/css">
+			input {
+				font-size: 120%;/* kích cỡ font*/
+				color: #7f7f7c;/* màu font*/
+				background-color: #f6f3f3;/* màu nền*/
+				border: 1px solid #bdbdbd;/* đường viền*/
+				border-radius: 5px;/* bo góc đường viền*/
+				padding: 5px 10px 5px 10px;/* căn lề*/
+				background-repeat: no-repeat;/* lặp lại nền hay không*/
+				background-position: 8px 9px;/* vị trí nền*/
+				display: block;/* hiển thị theo một khối*/
+				margin-bottom: 10px;
+			}
+			input#submit {
+				color: #444444;/* màu*/
+				text-shadow: 0px 1px 1px #ffffff;/* bóng chữ*/
+				border-bottom: 2px solid #807c7c;/* màu viền dưới*/
+				background-color: #b9e4e3;/* màu nền*/
+				background: -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+				background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+				background: -o-linear-gradient(top, #beeae9, #a8cfce);
+				background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+			}
+			input#submit:hover {
+				color: #333333;
+				border: 1px solid #a4a4a4;
+				border-top: 2px solid #b2b2b2;
+				background-color: #a0dbc4;
+				background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+				background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+				background: -o-linear-gradient(top, #a8cfce, #beeae9);
+				background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<input type="submit" value="Register" id="submit" />
+		</form>
+	</body>
+</html>
