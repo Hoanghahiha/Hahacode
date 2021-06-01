@@ -1,6 +1,10 @@
-var username= ['Ta Hoang Ha'];
+var username= 'Ta Hoang Ha';
 var elName=document.getElementById('userSign');
 elName.textContent=username;
+
+var title= username.length;
+var elTitle=document.getElementById('tiles')
+elTitle.textContent=title;
 
 var sub=70;
 var elsub = document.getElementById('subTotal');
