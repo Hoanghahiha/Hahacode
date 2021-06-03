@@ -2,7 +2,7 @@ var username= 'Ta Hoang Ha';
 var elName=document.getElementById('userSign');
 elName.textContent=username;
 
-var title= username.length;
+var title= username.length; /* Lấy ra độ dài của chuỗi biến username*/
 var elTitle=document.getElementById('tiles')
 elTitle.textContent=title;
 
