@@ -6,4 +6,4 @@ msg += '<p>heigh: '+window.screen.height+ '</p>';
 
 var el = document.getElementById('info');
 el.innerHTML=msg;
-alert('Current page: ' + window.location);
+// alert('Current page: ' + window.location);

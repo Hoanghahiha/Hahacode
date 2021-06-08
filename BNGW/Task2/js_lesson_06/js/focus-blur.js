@@ -9,7 +9,7 @@ function checkUsername(){
 }
 
 function tipUsername(){
-    elMsg.className = 'tips';
+    elMsg.className = 'tip';
     elMsg.innerHTML = 'Username must be at least 5 characters';
 }
 

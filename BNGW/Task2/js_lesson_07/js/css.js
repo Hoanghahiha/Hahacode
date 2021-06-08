@@ -4,7 +4,7 @@ $(function (){
     $('ul').append('<p>Color was: ' + backgroundColor + '</p>');
 
     $('li').css({
-        'background-color': '#c5a996',
+        'background-color': '#cbc5c1',
         'boder': '1px solid #fff',
         'color': '#000',
         'text-shadow': 'none',

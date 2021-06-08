@@ -1,13 +1,13 @@
 $(function (){
-    $('h2').hide().slideDown();
+    $('h2').hide().slideUp();
     var $li = $('li');
     $li.hide().each(function (index){
-        $(this).delay(700*index).fadeIn(700);
+        $(this).delay(900*index).fadeIn(1700);
         }
     );
 
     $li.on('click', function (){
-        $(this).fadeOut(700);
+        $(this).fadeOut(1700);
         }
     );
     }

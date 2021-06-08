@@ -7,7 +7,7 @@ function checkLength(e, minLength){
     elMsg = el.nextSibling;
 
     if (el.value.length<minLength){
-        elMsg.innerHTML = 'Username must be' + minLength + 'characters or more';
+        elMsg.innerHTML = 'Username must be ' + minLength + ' characters or more';
     } else {
         elMsg.innerHTML = '';
     }

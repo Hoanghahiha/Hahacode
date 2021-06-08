@@ -1,5 +1,5 @@
 function checkUsername() {
-    var elMsg = document.getElementById('feedback');
+    var elMsg = document.getElementById('feedback'); /*đặt một biến tham chiếu đến id feedback*/
     if (this.value.length < 5){
         elMsg.textContent = "Username must be 5 characters or more";
     }else {
@@ -7,5 +7,5 @@ function checkUsername() {
     }
 }
 
-var elUsername = document.getElementById('username');
-elUsername.onblur = checkUsername;
+var elUsername = document.getElementById('username'); /*đặt biến username tham chiếu đến id username*/
+elUsername.onblur = checkUsername; /*onblur*/
