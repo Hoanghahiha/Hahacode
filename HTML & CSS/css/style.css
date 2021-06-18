@@ -419,3 +419,8 @@ p a:hover {
 #footer div#connect a#googleplus:hover {
 	background: url(../images/icons.png) no-repeat -25px -95px;
 }
+#header #headerimg{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
