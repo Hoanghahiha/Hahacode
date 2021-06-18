@@ -111,7 +111,7 @@ img {
 	width: 520px;
 }
 #body div#background div div div h1 {
-	color: #615954;
+	color: #eeb58c;
 	font-size: 48px;
 	font-weight: normal;
 	line-height: 50px;
@@ -419,8 +419,7 @@ p a:hover {
 #footer div#connect a#googleplus:hover {
 	background: url(../images/icons.png) no-repeat -25px -95px;
 }
-#header #headerimg{
-	justify-content: center;
-	display: flex;
-	align-items: center;
+.headeimg{
+	background-image: url("../images/dogs.jpg");
+	background-repeat: no-repeat;
 }
